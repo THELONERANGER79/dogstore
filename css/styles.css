@@ -1,0 +1,180 @@
+body {
+  font-style: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*title*/
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title {
+  background-color: #FF4C68;
+  color: #fff;
+  text-align: left;
+}
+
+/*containers*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*section*/
+.colored-section{
+  color: #fff;
+  background-color: #FF4C68;
+}
+.white-section{
+    background-color: #fff;
+}
+
+/*navbar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*title*/
+.title-image {
+  width: 70%;
+  rotate: 25deg;
+  position: absolute;
+  right: 30%;
+}
+
+.title-img-div {
+  position: relative;
+}
+#title .container-fluid{
+  padding:3% 15% 7%;
+}
+
+
+/*features*/
+.feature-heading{
+  font-size: 1.5rem;
+}
+#features {
+
+  position: relative;
+}
+
+.feature-box {
+  text-align: centre;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  font-weight: bold;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*press*/
+#press {
+  background-color: #FF4C68;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/*card*/
+.card {
+  margin: 20px;
+}
+
+/*pricing*/
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing {
+  padding: 3%;
+}
+.price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+/*cta-section*/
+
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+/*media query*/
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    margin-top: 5%;
+    rotate: 0deg;
+    max-width: 60;
+    position: static;
+  }
+}
