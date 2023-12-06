@@ -1,0 +1,2 @@
+# dogstore
+an example project
